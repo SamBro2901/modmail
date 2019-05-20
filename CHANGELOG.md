@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# v2.21.0
+
+### Added 
+
+New `?plugin registry compact` command which shows a more compact view of all plugins.
+
+# v2.20.2
+
+### Plugin Registry
+
+Plugin developers can now make a PR to include their plugin in the `plugin registry` command.
+Add your plugin in the `plugins/registry.json` file in the main repository.
+
+### Changed
+
+`?debug` command now shows the most recent logs first. (Starts at the last page)
 
 # v2.20.1
 
